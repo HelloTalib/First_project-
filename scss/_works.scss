@@ -1,0 +1,23 @@
+#works{
+	height: 100%;
+	.work-title{
+		h2{
+			font-size: 24px;
+			color:#583496;
+			text-transform: uppercase;
+		}
+		p{
+			color: #C7C6C6;
+		}
+	}
+	.work-img{
+		overflow: hidden;
+		img{
+			transition: transform .5s ease;
+		}
+		img:hover{
+			transform: scale(1.2);
+			cursor: zoom-in;
+		}
+	}
+}

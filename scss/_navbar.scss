@@ -1,0 +1,39 @@
+#navbar{
+	background: transparent !important;
+	transition: all ease-in-out .5s;
+	.navbar-brand{
+		font-family: 'Fjalla One', sans-serif;
+		color:#fff;
+		font-size: 36px;
+	}
+	.nav-link{
+		font-size: 14px;
+		text-transform: uppercase;
+		padding-left: 1rem !important;
+		padding-right: 1rem !important;
+		&:visited{
+
+		}
+		&:hover{
+
+		}
+		&:active{
+			color:red;
+		}
+	}	
+}
+#back-to-top{
+	position: fixed;
+	bottom:28px;
+	right: 28px;
+	transition: all .2s;
+	.back-to-top{
+		// color: #fff;
+		// background-color: rgba(0,0,0,0.7);
+		border-radius: 15px;
+		// background-color: trasnparent !important;
+		&:hover{
+			background-color: rgba(255,24,25,0.7);
+		}
+	}
+}

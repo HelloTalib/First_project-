@@ -1,0 +1,109 @@
+#team{
+	height: 100%;
+	background-image: url('../img/parallax/banner-one-angle.png');
+	background: linear-gradient(to bottom, rgba(76,175,80,0.7), rgba(78,202,250,0.5),rgba(196,153,246,0.7));
+  .our-team {
+   background-color: #f4f4f4;
+   padding: 40px 0;
+   text-align: center;
+   overflow: hidden;
+   position: relative;
+   border: 1px dotted #ccc;
+   border-radius: 55px;
+   -webkit-animation-duration: 4s;
+   -webkit-animation-delay: .8s;
+   .pic {
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 24px;
+    position: relative;
+    z-index: 1;
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+      transform: scale(1);
+      transition: all 0.9s ease 0s;
+    }
+    &::before {
+      content: "";
+      width: 100%;
+      height: 0;
+      border-radius: 50%;
+      background-color: #eb1768;
+      position: absolute;
+      bottom: 135%;
+      right: 0;
+      left: 0;
+      transform: scale(3);
+      transition: all 0.3s linear 0s;
+    }
+    &::after {
+      content: "";
+      width: 100%;
+      height: 99%;
+      border-radius: 50%;
+      background: #ee4268;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+  }
+  .team-content {
+    margin-bottom: 30px;
+    .post {
+     margin-bottom: 24px;
+     display: block;
+     font-size: 15px;
+     color: #4e5052;
+     text-transform: capitalize;
+   }
+   .about-me{
+     color:#adabab;
+   }
+ }
+ .social {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #eb1768;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  transition: all 0.5s ease 0s;
+  li {
+    display: inline-block;
+    a {
+      display: block;
+      padding: 10px;
+      font-size:26px;
+      color: #fff;
+      transition: all 0.5s ease 0s;
+      &:hover {
+        color: #631B29;
+        // background: #f7f5ec;
+        text-decoration: none;
+      }
+    }
+  }
+}
+&:hover {
+  .pic {
+    &::before {
+      height: 100%;
+    }
+    img {
+      box-shadow: 0 0 0 14px #f7f5ec;
+      transform: scale(0.7);
+    }
+  }
+  .social {
+    bottom: 0;
+  }
+}
+}
+}
+
+

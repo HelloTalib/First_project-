@@ -1,0 +1,35 @@
+#contact{
+	background-color: rgba(0,0,0,0.7);
+	color: #f4f4f4;
+	.contact-box{
+		padding: 5.6rem 0 ;
+		.p-address{
+			-webkit-animation-delay: 1s;
+		}
+		form{
+			-webkit-animation-delay: 1.5s;
+		}
+		.social-link{
+			a{
+				text-decoration: none;
+				color: #fff;
+				&:hover{
+					color: #838484;
+				}
+			} 
+		}
+	}
+}
+#main-footer{
+	background-color: rgba(0,0,0,0.7);
+	text-align:center;
+	padding: 10px;
+	color:#f4f4f4;
+	a{
+		text-decoration: none;
+		color: #8192EF;
+		&:hover{
+			color: #8374D5;
+		}
+	}
+}
